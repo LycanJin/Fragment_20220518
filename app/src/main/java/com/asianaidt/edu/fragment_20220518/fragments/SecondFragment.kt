@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.asianaidt.edu.fragment_20220518.R
 import kotlinx.android.synthetic.main.fragment_first.*
@@ -24,7 +25,9 @@ class SecondFragment : Fragment() {
 
         btn_log.setOnClickListener {
 
-            Log.d("프래그먼트", "프래그먼트에서의 로그")
+            Toast.makeText(requireContext(), "프래그먼트에서 토스트", Toast.LENGTH_SHORT).show()
+
+            Log.d("프래그먼트", "프래그먼트2에서의 로그")
 
         }
     }
