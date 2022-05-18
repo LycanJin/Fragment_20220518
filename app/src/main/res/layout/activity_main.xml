@@ -13,5 +13,11 @@
         android:layout_height="250dp"
         class="com.asianaidt.edu.fragment_20220518.fragments.FirstFragment" />
 
+    <fragment
+        android:id="@+id/second_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.asianaidt.edu.fragment_20220518.fragments.SecondFragment" />
+
 
 </LinearLayout>
