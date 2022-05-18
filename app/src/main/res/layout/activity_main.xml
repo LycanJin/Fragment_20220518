@@ -5,8 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
+
+    <fragment
+        android:tag="first fragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.asianaidt.edu.fragment_20220518.fragments.FirstFragment" />
 
 
 </LinearLayout>
